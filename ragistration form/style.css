@@ -1,0 +1,22 @@
+#res{
+	padding:10px; 
+	height: 30px; 
+	width: 200px;
+	font-size: 25px;
+}
+.form{
+	padding-top: 40px;
+	background-color: skyblue;
+	height: 420px;
+   	width: 500px;
+    border: 1px solid black;
+
+}
+.nam{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	text-align: left;
+	padding-left: 162px;
+	font-size: 18px;
+
+}

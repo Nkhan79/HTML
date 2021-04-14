@@ -1,0 +1,126 @@
+.main{
+	width: 100%;
+	height: auto;
+}
+.head {
+  width: auto;
+  height: 450px;
+  background-color: navy;
+  padding-top: 30px;
+}
+.head button{
+	color: white; 
+	height: 40px;
+	width: 200px; 
+	border-radius: 10px;
+}
+.para{
+	color: white;
+	padding-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.para2{
+	color: white;
+}
+.impact{
+	color: skyblue;
+	padding-top: 30px;
+}
+.butt{
+	padding-top: 60px;
+	width: 100%;
+	height: auto;
+	display: flex;
+    padding-left: 300px;
+}
+.Learn{
+	padding-left: 30px;
+}
+.mid{
+	display: flex; 
+	background-image: linear-gradient(#281000,black);
+	 color: white;
+	 height: 100px;
+	 width: 100%;
+}
+.let{
+	width: 30%;
+	 height: 40px;
+	 padding-top: 20px;
+}
+.un{
+	display: flex;
+	padding-left: 60px;
+}
+.lis{
+	list-style: none;
+	padding-left: 30px;
+
+}
+ .down{
+ 	width: auto;
+    height: 270px;
+	padding-left: 50px;
+	padding-top: 25px;
+	display: flex;
+	background-color: #000000;
+}
+.dlist{
+	width: 300px
+	height: 300px;
+	padding-left: 45px;
+	padding-top: 5px;
+}
+.unor{
+	list-style: none;
+	padding-top: 10px;
+	color: white;
+}
+.hig{
+	font-weight: bolder;
+	font-size: 15px;
+}
+.hed{
+padding-top: 12px;
+font-size: 12px;
+color: #a4a09f;
+}
+
+@media only screen and (max-width: 360px) {
+  .down {
+    background-color: red;
+  }
+  .impact {
+  	font-size: 20px;
+  }
+  .para{
+  	
+  	padding-left: 20px;
+  	padding-right: 20px;
+  }
+  .butt{
+	padding-top: 60px;
+	width: 100%;
+	height: auto;
+    padding-left: 10px;
+  }
+  .Learn{
+	padding-left: 10px;
+  }
+  .mid{
+	display: flex; 
+	background-color: green;
+	 color: white;
+	 height: auto;
+	 width: 100%;
+  }
+.down{
+ 	width: auto;
+    height: auto;
+	padding-left: 50px;
+	padding-top: 25px;
+	display: flex;
+	background-color: #000000;
+}
+}
